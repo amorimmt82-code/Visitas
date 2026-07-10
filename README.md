@@ -1,20 +1,69 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Sistema de Gestão de Visitantes
 
-# Run and deploy your AI Studio app
+Aplicação desenvolvida para controlar a entrada e saída de visitantes, permitindo o registo, consulta e acompanhamento das visitas através de uma interface simples e intuitiva. O projeto também possui uma versão desktop utilizando Electron.
 
-This contains everything you need to run your app locally.
+## Funcionalidades
 
-View your app in AI Studio: https://ai.studio/apps/drive/1V4jKqDqVt1U5FaNcW50yGJR4myx1kdhl
+* Registo de visitantes;
+* Controlo de entradas e saídas;
+* Leitura de QR Code;
+* Emissão de crachás para visitantes;
+* Consulta do histórico de visitas;
+* Interface responsiva;
+* Versão desktop com Electron.
 
-## Run Locally
+## Tecnologias utilizadas
 
-**Prerequisites:**  Node.js
+* React
+* TypeScript
+* Vite
+* Electron
+* CSS
 
+## Instalação
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Clone o repositório:
+
+```bash
+git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+```
+
+Entre na pasta do projeto:
+
+```bash
+cd SEU-REPOSITORIO
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Caso o projeto utilize variáveis de ambiente, crie um ficheiro `.env.local` com as configurações necessárias.
+
+Para iniciar a versão web:
+
+```bash
+npm run dev
+```
+
+Para executar a versão desktop, utilize o comando configurado no projeto para iniciar o Electron.
+
+## Estrutura do projeto
+
+```text
+components/
+context/
+electron/
+public/
+dist/
+```
+
+## Objetivo
+
+O objetivo deste projeto é facilitar o controlo de visitantes em empresas ou instituições, centralizando o registo das visitas e tornando o processo de entrada e saída mais organizado e eficiente.
+
+## Autor
+
+Matheus Machado

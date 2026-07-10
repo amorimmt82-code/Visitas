@@ -1,0 +1,5 @@
+{
+  "name": "O Melro - Visitor Management",
+  "description": "Visitor registration and identification system for O Melro company featuring multi-language support, safety briefings, and QR code badge generation.",
+  "requestFramePermissions": []
+}
